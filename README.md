@@ -15,7 +15,7 @@
 5. quick sort (퀵 정렬)
 
 
-Merge Sort(합병 정렬)
+### Merge Sort(합병 정렬)
 
 ~~~c
 #include<iostream>
@@ -70,13 +70,12 @@ int main(){
     printf("%d\n",arr[i]) ;
 }
 ~~~
-
-![merge](https://user-images.githubusercontent.com/39542989/82017084-535fe400-96bd-11ea-8a1a-7071652ab0e5.gif)
-
 분할정복을 이용한다. 어려운 용어가 아니다. 데이터가 담겨있는 배열을 각각이 크기가 1이 될때까지 분할 하고, 
 작은 것을 앞, 큰 것을 뒤에 붙여 다시 원래의 길이로 합쳐가는 과정이다. 
 해당 알고리즘은 그림으로 보는 것이 편할 것 같다.
+![merge](https://user-images.githubusercontent.com/39542989/82017084-535fe400-96bd-11ea-8a1a-7071652ab0e5.gif)
+
+쉽게 말해, 배열을 반으로 쪼개고, 1개로 쪼개지면 쪼개지기 이전 단계의 다른 쪼개진 배열 조각과 정렬해 윈래의 길이로 합쳐가는 과정이다. 
 
 ![merge](https://user-images.githubusercontent.com/39542989/82017087-53f87a80-96bd-11ea-9f9f-941a8a8cba77.png)
 
-쉽게 말해, 배열을 반으로 쪼개고, 1개로 쪼개지면 쪼개지기 이전 단계의 다른 쪼개진 배열 조각과 정렬해 윈래의 길이로 합쳐가는 과정이다. 
